@@ -16,23 +16,19 @@ a {
 
 /* Gradient generated from https://angrytools.com/gradient/ */
 .gradient__bg {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%); 
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* opera 11.10+ */
-  background: -o-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#0000FF', GradientType=0 );
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* ie 10+ */
-  background: -ms-linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
-  /* global 94%+ browsers support */
-  background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(238, 130, 238, 1) 100%);
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 }
 
 .gradient__text {
@@ -43,17 +39,17 @@ a {
 }
 
 .section__padding {
-  padding: 4rem;
+  padding: 4rem 6rem;
 }
 
 .section__margin {
-  margin: 4rem;
+  margin: 4rem 6rem;
 }
 
 /* Animation generated from https://animista.net/play/basic/scale-up */
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -66,6 +62,7 @@ a {
             transform: scale(1);
   }
 }
+
 @keyframes scale-up-center {
   0% {
     -webkit-transform: scale(0.5);
@@ -91,8 +88,8 @@ a {
   .section__padding {
     padding: 4rem 2rem;
   }
-  
+
   .section__margin {
     margin: 4rem 2rem;
-  }
+  }  
 }
