@@ -1,6 +1,11 @@
+# Important Links
+
+Link to [Youtube Tutorial](https://youtu.be/F627pKNUCVQ?si=ePZo6ov8GWxNxjfM)
+Link to [Figma File](https://www.figma.com/design/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0-15)
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
