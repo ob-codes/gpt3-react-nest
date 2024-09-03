@@ -21,24 +21,24 @@ const Footer = () => {
 
         <div className="gpt3__footer-content__div">
           <h4>Links</h4>
-          <p><a href="#">Overans</a></p>
-          <p><a href="#">Social Media</a></p>
-          <p><a href="#">Counters</a></p>
-          <p><a href="#">Contact</a></p>
+          <p><a href="#home">Overans</a></p>
+          <p><a href="#home">Social Media</a></p>
+          <p><a href="#home">Counters</a></p>
+          <p><a href="#home">Contact</a></p>
         </div>
 
         <div className="gpt3__footer-content__div">
           <h4>Company</h4>
-          <p><a href="#">Terms & Conditions</a></p>
-          <p><a href="#">Privacy Policy</a></p>
-          <p><a href="#">Contact</a></p>
+          <p><a href="#home">Terms & Conditions</a></p>
+          <p><a href="#home">Privacy Policy</a></p>
+          <p><a href="#home">Contact</a></p>
         </div>  
 
         <div className="gpt3__footer-content__div">
           <h4>Get in touch</h4>
           <p>Crechterwoord K12 182 DK Alknjkcb</p>
           <p>085-132567</p>
-          <p><a href="#">info@payme.net</a></p>
+          <p><a href="#home">info@payme.net</a></p>
         </div>
       </div>
 
